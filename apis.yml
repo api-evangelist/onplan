@@ -1,7 +1,30 @@
 aid: onplan
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onplan.png
 name: OnPlan
-description: OnPlan is a company surfaced as a portfolio company of redpoint-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  OnPlan (onplan.co) publishes guidance and content on project controls,
+  budgeting, and forecasting for organizations managing projects and capital
+  programs. The site covers cost planning and budget management, risk
+  management frameworks, change control procedures, earned value management,
+  and benefit realization tracking across infrastructure, construction, and
+  technology projects. It is presented as an informational and educational
+  resource rather than a self-service SaaS platform: at the time of enrichment
+  the public surface consists of a homepage, a blog of dated articles, a
+  contact page, a privacy policy, and a sitemap, with no developer portal,
+  public API, documentation, pricing, sign-up/login, or terms-of-service pages
+  exposed. This profile was surfaced as a VC-portfolio lead and enriched from
+  the live site; no machine-readable API artifacts were found to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/onplan/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Project Controls
+- Budgeting
+- Forecasting
+- Risk Management
+- Financial Planning
+- FP&A
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,16 @@ maintainers:
 common:
 - type: Website
   url: https://onplan.co/
+- type: Blog
+  url: https://onplan.co/latest-posts.html
+- type: Support
+  url: https://onplan.co/contact-us.html
+- type: PrivacyPolicy
+  url: https://onplan.co/privacy-policy.html
+- type: DomainSecurity
+  url: security/onplan-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

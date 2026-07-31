@@ -1,0 +1,16 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of https://onplan.co/.well-known/*
+host: https://onplan.co
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  No /.well-known discovery documents are published on onplan.co. The host is a
+  static marketing/content site with no OAuth/OIDC surface, no AI plugin
+  manifest, and no security.txt. Absence recorded as valid data; no WellKnown
+  catalog pointer wired.
