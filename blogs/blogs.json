@@ -2,13 +2,20 @@
   "repo": "onplan",
   "feeds": [
     {
+      "source": "https://onplan.co/feed",
+      "feed_url": "https://onplan.co/feed",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://onplan.co/",
       "feed_url": "https://onplan.co/feed",
       "title": "",
-      "saved": 1,
+      "saved": 0,
       "method": "discovered"
     }
   ],
-  "post_count": 1,
-  "fetched": "2026-07-25T15:00:33Z"
+  "post_count": 10,
+  "fetched": "2026-08-01T15:49:00Z"
 }
